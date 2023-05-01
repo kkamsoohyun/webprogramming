@@ -1,0 +1,63 @@
+.title1{
+   color : grey;
+   font-family: "American Typewriter";
+}
+.title2{
+    color:grey;
+    font-family: "American Typewriter";
+}
+ul{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "American Typewriter";
+ }
+
+ .menu-bar {
+    position: fixed;
+    border: 0;
+    background-color: rgb(42, 75, 107);
+    display: block;
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .name{
+    font-family: "American Typewriter";
+
+  }
+
+  .click:hover{
+    color : lightgray;
+  }
+
+  
+  .HL{background-color: aquamarine;}
+
+  img:hover { /*이미지 반응*/
+    transform : scale(1.1);
+    -webkit-transform: scale(1.1);
+    z-index:1;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+
+  }
+
+  .interests .comment{
+    font-style: italic;
+    font-size: 20px;
+  }
+
+  .whatilove-img{
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .whatilove-img img {
+    width:250px;
+    height: 210px;
+    transition: all 0.3s ease-in-out;
+  }
